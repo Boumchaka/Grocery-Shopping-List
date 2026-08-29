@@ -33,3 +33,14 @@
 .shop-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:5px}.shop-title h3{margin:0}.shop-title .subtotal{margin:0;font-size:12px;white-space:nowrap}
 .recipe-filters{display:grid;gap:8px;margin:9px 0}.filter-search input{width:100%}.filter-row{display:flex;gap:6px;overflow-x:auto;padding:1px}.filter-btn{border:1px solid var(--line);border-radius:999px;padding:7px 10px;background:#fff;font-size:12px;font-weight:750;white-space:nowrap}.filter-btn.active{background:var(--green);border-color:var(--green);color:#fff}.recipe-one-line{padding:9px 10px;margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}.recipe-one-line b{font-size:12px}
 @media(prefers-color-scheme:dark){.hero.Spring{background:#203522!important}.hero.Summer{background:#403711!important}.hero.Autumn{background:#3b2d21!important}.hero.Winter{background:#1e3043!important}.fruit-v43 .fruit-meal-frame{background:#282a2e}.filter-btn{background:#2b2d31;color:#f2f2f7}}
+
+/* V4.5 - ajustements visuels ciblés */
+.meal-v43{padding:4px 7px;margin-top:3px}
+.meal-line1{line-height:1.05}
+.meal-line2{line-height:1.12;margin-top:2px}
+.touch-mini{min-height:27px;padding:2px 5px}
+.day{padding-top:6px;padding-bottom:6px}
+.icon-only{font-size:18px;line-height:1;width:39px;height:36px;padding:0;display:inline-grid;place-items:center}
+.price-row{font-size:12px}
+.price-row input{font-size:11px;padding:6px;width:68px!important}
+.price-row span{font-size:11px}
