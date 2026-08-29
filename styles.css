@@ -44,3 +44,11 @@
 .price-row{font-size:12px}
 .price-row input{font-size:11px;padding:6px;width:68px!important}
 .price-row span{font-size:11px}
+
+/* V4.6 - planning sur une ligne et P'tit kiff */
+.meal-v46{display:grid;grid-template-columns:35px minmax(0,1fr) auto;align-items:center;gap:5px;min-height:0;padding:4px 6px;margin-top:3px;background:#f8f8fa;border:0;border-radius:11px}
+.meal-period{font-size:10px;white-space:nowrap}.meal-inline-name{min-width:0;font-size:11.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meal-inline-buttons{display:flex;align-items:center;gap:2px}.meal-inline-buttons .touch-mini{min-width:28px;min-height:25px;padding:2px 4px}
+.kiff-v46{margin-top:7px}.course-period{font-weight:750;margin:0 0 5px}.recipe-one-line,.meal-inline-name,.sheet h2{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
+.price-row{font-size:11px;padding:6px 8px}.price-row b{font-size:11px}.price-row input{font-size:10px;padding:4px 5px;width:62px!important}.price-row span{font-size:10px}
+@media(max-width:430px){.meal-v46{grid-template-columns:31px minmax(0,1fr) auto;gap:3px}.meal-period{font-size:9.5px}.meal-inline-name{font-size:10.5px}.meal-inline-buttons .touch-mini{font-size:9px}}
+@media(prefers-color-scheme:dark){.meal-v46{background:#282a2e}}
