@@ -52,3 +52,7 @@
 .price-row{font-size:11px;padding:6px 8px}.price-row b{font-size:11px}.price-row input{font-size:10px;padding:4px 5px;width:62px!important}.price-row span{font-size:10px}
 @media(max-width:430px){.meal-v46{grid-template-columns:31px minmax(0,1fr) auto;gap:3px}.meal-period{font-size:9.5px}.meal-inline-name{font-size:10.5px}.meal-inline-buttons .touch-mini{font-size:9px}}
 @media(prefers-color-scheme:dark){.meal-v46{background:#282a2e}}
+
+/* V4.7 - page desserts et rendu des icônes exclusivement côté application */
+.dessert-page{--dessert:#9b5aa6}.dessert-head{border-left:5px solid var(--dessert);background:#f5eafa;border-radius:16px;padding:8px 10px;margin-bottom:8px}.dessert-card{border-left:4px solid #9b5aa6;background:#fcf6ff}.dessert-card b{font-size:12px}.kiff-v46{border-left:4px solid #9b5aa6}.tabs button[data-page="desserts"].active{background:#f0dff5!important;color:#7f3f8d!important}
+@media(prefers-color-scheme:dark){.dessert-head,.dessert-card{background:#33263a!important}.tabs button[data-page="desserts"].active{background:#452d4c!important;color:#e5b8ef!important}}
